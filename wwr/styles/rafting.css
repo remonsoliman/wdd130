@@ -19,6 +19,7 @@
 body {
     font-family: var(--body-font);
     color: var(--secondary-color);
+    background-color: var(--bg-light);
 }
 
 header,
@@ -31,6 +32,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 nav,
@@ -39,6 +41,10 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+nav {
+    border-bottom: 2px solid var(--accent2-color);
 }
 
 .socialmedia a {
